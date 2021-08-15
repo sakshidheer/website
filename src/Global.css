@@ -1,0 +1,28 @@
+.primaryColorScheme {
+    color: #04c4ff;
+
+}
+
+.linkHover {
+    color: #3eb1d4;
+}
+
+.primaryText {
+    color: #e2dede;
+}
+
+.projectHeader {
+    background-color: #04c4ff;
+}
+
+.button {
+    background-color: #0aafe1;
+}
+
+.card {
+    box-shadow: 1px 0 4px #04c4ff;
+}
+
+.text {
+    color:#007ea4;
+}

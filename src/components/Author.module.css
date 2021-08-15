@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+.author {
+    composes : card from '../Global.css';
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1;
+    font-size: 40px;
+    composes : text from '../Global.css';
+    background-image: var(--backIng);
+    background-repeat:no-repeat;
+    display: flex;
+   
+
+}
+
+
+
+.introSec{
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.introSec img {
+    margin-left: 70px;
+}
+.detailSec{
+    flex-grow: 1;
+    padding-top: 150px;
+}
+
+.name{
+    font-family: 'Bungee Outline', cursive;
+    padding-left: 15px;
+    font-weight: bolder;
+}
+
+
+img {
+    display: block;
+    height: 200px;
+}
+
+
+
+
+
+@media  screen and (max-width: 1280px) {
+    .name{
+        padding-left: 0px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .introSec img {
+        margin-left: 0px;
+    }
+}
+
+@media  screen and (max-width: 900px) {
+    .author {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    .introSec{
+        padding-left: 30%;
+        padding-top: 40px;
+    }
+    .introSec img {
+        margin-left: 0px;
+    }
+    .detailSec{
+        padding-top: 20px;
+    }
+}

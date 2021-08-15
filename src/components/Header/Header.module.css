@@ -1,0 +1,77 @@
+.header {
+    composes : primaryColorScheme from '../../Global.css';
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoSection {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    composes : primaryColorScheme from '../../Global.css';
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.header nav {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header nav span {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.headerLink {
+    composes : primaryColorScheme from '../../Global.css';
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.active {
+    composes: linkHover from '../../Global.css';
+}
+
+.navSection {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:900px) {
+    flex-grow: 0.7;
+}
+@media screen and (max-width:600px) {
+    .navSection {
+        position: fixed;
+        bottom: 0px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: -2vh;
+        margin-right: 0vh;
+        z-index: 999;
+        background: #0aafe1;
+        color: white;
+        box-shadow: 0px -3px 10px #04c4ff59;
+    }
+    .header nav span {
+        margin: 10px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .listSection{
+        display: none;
+    }
+    .headerLink{
+        color: white;
+    }
+    .active{
+        color:#3d3b3b;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media  screen and (max-width: 800px) {
+    .app {
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+}

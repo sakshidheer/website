@@ -1,0 +1,15 @@
+.button {
+    
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fcfcfb;
+    composes : button from '../../Global.css'
+}
+
+.button:hover {
+    background-color: #40c5ee;
+}

@@ -1,0 +1,70 @@
+.imgCon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    height: 50%;
+}
+
+.title {
+    position: relative;
+    padding: 10px;
+    top: -23px;
+    left: 90px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    composes: projectHeader from '../../Global.css';
+    color: #fcfcfb;
+}
+.lang {
+    margin: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    composes: primaryText from '../../Global.css';
+    margin-bottom: 0px;
+}
+.status {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color:violet;
+    composes: primaryText from '../../Global.css';
+}
+
+.lanContainer{
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content {
+    height: 300px;
+}
+.discription {
+    height: 20%;
+    padding: 10px;
+}
+
+.header {
+    composes: primaryText from '../../Global.css';
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+
+.imgCon img {
+    object-fit: fill;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis:content;
+    margin-top: 5px;
+}
