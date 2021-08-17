@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Short+Stack&display=swap');
+
+.note {
+    min-width: 300px;
+    max-width: 300px;
+    margin: 20px;
+    padding:10px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    composes : text from '../../Global.css';
+    justify-content: space-between;
+    position: relative;
+    background-color: rgb(243, 243, 166);
+    font-family: 'Short Stack', cursive;
+    font-size: 30px;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+.note::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+    text-decoration: none;
+  }
+
+
