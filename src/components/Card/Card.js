@@ -1,7 +1,8 @@
 import classes from './Card.module.css';
 
 const Card = props => {
-    return <div className={classes.card}>
+    let classList = [classes.card, props.stylename]
+    return <div className={classList.join(' ')}>
         {props.children}
         </div>
 }

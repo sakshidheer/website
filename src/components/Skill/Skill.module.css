@@ -1,0 +1,6 @@
+.progressbar {
+    width: 90%;
+    height:5px;
+    background-color: rgb(133, 240, 133);
+    background-image: linear-gradient(90deg, green var(--progressParcentage), transparent var(--progressParcentage));
+}

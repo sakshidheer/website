@@ -1,0 +1,15 @@
+.ExperienceBar{
+    height: 100px;
+    border: 1px solid red;
+}
+
+.barContainer{
+    display: flex;
+    flex-direction: column;
+ justify-content: center; ;
+}
+.bar{
+    width: 100%;
+    background-color: green;
+    height: 5px;
+}

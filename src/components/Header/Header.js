@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classes from './Header.module.css';
-import { Icon } from '@iconify/react';
-import listIcon from '@iconify-icons/bi/list';
 
 const Header = props => {
-    let [showNav,setShowNav] = useState(false);
     return <div className={classes.header}>
         <div className={classes.logoSection}>Sakshi Dheer</div>
         <nav className={classes.navSection}>

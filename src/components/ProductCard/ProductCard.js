@@ -3,33 +3,15 @@ import classes from './ProductCard.module.css';
 import Button from '../Button/Button';
 // npm install --save-dev @iconify/react @iconify-icons/logos
 import { Icon } from '@iconify/react';
-import reactIcon from '@iconify-icons/logos/react';
-import reduxIcon from '@iconify-icons/logos/redux';
-import css3 from '@iconify-icons/logos/css-3';
-import reactRouter from '@iconify-icons/logos/react-router';
 import aiStatusInProgress from '@iconify-icons/carbon/ai-status-in-progress';
 import aiStatusComplete from '@iconify-icons/carbon/ai-status-complete';
+import IconByLang from '../../util/IconByLang';
 
 const ProductCard = props => {
 
-    const getColorByLang = (lang) => {
-        switch (lang) {
-            case 'React':
-                return <Icon icon={reactIcon} />;
-            case 'css':
-                return <Icon icon={css3} />;
-            case 'React-router':
-                return <Icon icon={reactRouter} />;
-            case 'Redux':
-                return <Icon icon={reduxIcon} />;
-            default:
-                return <Icon icon={reduxIcon} />;
-        }
-    }
-
     const langs = props.langs.map(item => {
         return <span key={item}
-            className={classes.lang}  title={item}>{getColorByLang(item)}</span>
+            className={classes.lang}  title={item}>{IconByLang(item)}</span>
     });
     const onButtonClick = (url) => {
         window.open(url, '_blank');
