@@ -34,9 +34,9 @@ const Author = props => {
             </Card>
 
         </div>
+<ExperienceBar/>
 
-
-        <ExperienceBar />
+        
 
     </div>
 }

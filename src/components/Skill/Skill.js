@@ -4,8 +4,9 @@ import IconByLang from '../../util/IconByLang';
 const skill =(props)=>{
 
 return (<div>
-    {props.name}
-    {IconByLang(props.name)}
+   <div className={classes.nameandicon}>
+       {props.name}
+    {IconByLang(props.name)}</div> 
     <div className={classes.progressbar} 
     style={{
         '--progressParcentage':props.percentage
