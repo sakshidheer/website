@@ -13,3 +13,11 @@
     background-color: green;
     height: 5px;
 }
+
+.dateClassName{
+    color: #007ea4;
+}
+
+.verticalLine::before{
+    background: green !important;
+}

@@ -1,5 +1,5 @@
 import { Route } from 'react-router-dom';
-import Author from './components/Author';
+import Blog from './components/Author';
 import Projects from './components/Projects';
 import Home from './components/Home';
 import Header from './components/Header/Header';
@@ -12,8 +12,8 @@ function App() {
       <Route path="/" exact>
         <Home />
       </Route>
-      <Route path="/author">
-        <Author />
+      <Route path="/blog">
+        <Blog />
       </Route>
       <Route path="/projects">
         <Projects />

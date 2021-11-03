@@ -7,7 +7,6 @@ const Header = props => {
         <div className={classes.logoSection}>Sakshi Dheer</div>
         <nav className={classes.navSection}>
             <span>
-            
                 <NavLink
                     exact
                     activeClassName={classes.active}
@@ -20,7 +19,7 @@ const Header = props => {
                 to="/projects"><span className="material-icons">assignment</span>Projects</NavLink></span>
             <span><NavLink className={classes.headerLink}
                 activeClassName={classes.active}
-                to="/author"><span className="material-icons">face</span>Author</NavLink></span>
+                to="/author"><span className="material-icons">face</span>Blog</NavLink></span>
         </nav>
     </div>
 };
