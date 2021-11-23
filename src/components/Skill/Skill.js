@@ -1,13 +1,13 @@
-import classes from './Skill.module.css';
+import {nameandicon,progressbar} from './Skill.module.css';
 import IconByLang from '../../util/IconByLang';
 
 const skill =(props)=>{
 
 return (<div>
-   <div className={classes.nameandicon}>
+   <div className={nameandicon}>
        {props.name}
     {IconByLang(props.name)}</div> 
-    <div className={classes.progressbar} 
+    <div className={progressbar} 
     style={{
         '--progressParcentage':props.percentage
     }}></div>

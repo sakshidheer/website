@@ -1,5 +1,5 @@
 import Card from '../Card/Card';
-import classes from './ProductCard.module.css';
+import * as classes from './ProductCard.module.css';
 import Button from '../Button/Button';
 // npm install --save-dev @iconify/react @iconify-icons/logos
 import { Icon } from '@iconify/react';

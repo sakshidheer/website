@@ -1,4 +1,4 @@
-import classes from './ExperienceBar.module.css'
+import {verticalLine,dateClassName} from './ExperienceBar.module.css'
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -7,7 +7,7 @@ import { Work as WorkIcon , School as SchoolIcon, Star as StarIcon } from '@mate
 const ExperienceBar = (props) => {
 
   return (<div>
-    <VerticalTimeline className={classes.verticalLine}>
+    <VerticalTimeline className={verticalLine}>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#04c4ff',color:'white' }}
@@ -15,7 +15,7 @@ const ExperienceBar = (props) => {
         date="Aug 2020 - present"
         iconStyle={{ background: '#04c4ff', color: '#fff' }}
         icon={<WorkIcon />}
-        dateClassName={classes.dateClassName}
+        dateClassName={dateClassName}
       >
         <h3 className="vertical-timeline-element-title">Technical Leader Development</h3>
         <h4 className="vertical-timeline-element-subtitle">MYCOM OSI, Gurugram, India</h4>
@@ -30,7 +30,7 @@ const ExperienceBar = (props) => {
         icon={<WorkIcon />}
         contentStyle={{ background: '#04c4ff',color:'white' }}
         contentArrowStyle={{ borderRight: '7px solid  #04c4ff' }}
-        dateClassName={classes.dateClassName}
+        dateClassName={dateClassName}
       >
         <h3 className="vertical-timeline-element-title">Started self learning React</h3>
       </VerticalTimelineElement>
@@ -40,7 +40,7 @@ const ExperienceBar = (props) => {
         iconStyle={{ background: '#04c4ff', color: '#fff' }}
         contentStyle={{ background: '#04c4ff',color:'white' }}
         contentArrowStyle={{ borderRight: '7px solid  #04c4ff' }}
-        dateClassName={classes.dateClassName}
+        dateClassName={dateClassName}
         icon={<WorkIcon />}
       >
         <h3 className="vertical-timeline-element-title">Senior Software Engineer</h3>
@@ -53,7 +53,7 @@ const ExperienceBar = (props) => {
         contentStyle={{ background: '#04c4ff',color:'white' }}
         contentArrowStyle={{ borderRight: '7px solid  #04c4ff' }}
         icon={<WorkIcon />}
-        dateClassName={classes.dateClassName}
+        dateClassName={dateClassName}
       >
         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
         <h4 className="vertical-timeline-element-subtitle">Incedo Inc., Gurugram, India</h4>
@@ -65,7 +65,7 @@ const ExperienceBar = (props) => {
         contentStyle={{ background: '#04c4ff',color:'white' }}
         contentArrowStyle={{ borderRight: '7px solid  #04c4ff' }}
         icon={<WorkIcon />}
-        dateClassName={classes.dateClassName}
+        dateClassName={dateClassName}
       >
         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
         <h4 className="vertical-timeline-element-subtitle">Adeptia India Pvt lmd., Noida, India</h4>
@@ -77,7 +77,7 @@ const ExperienceBar = (props) => {
         contentStyle={{ background: '#04c4ff',color:'white' }}
         contentArrowStyle={{ borderRight: '7px solid  #04c4ff' }}
         icon={<SchoolIcon />}
-        dateClassName={classes.dateClassName}
+        dateClassName={dateClassName}
       >
         <h3 className="vertical-timeline-element-title">Bachelor of Technology</h3>
         <h4 className="vertical-timeline-element-subtitle">Guru Gobind Singh Indraprastha University</h4>

@@ -23,16 +23,6 @@
     font-size: 16px;
 }
 
-.headerLink {
-    composes : primaryColorScheme from '../../Global.css';
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-}
-
-.active {
-    composes: linkHover from '../../Global.css';
-}
-
 .navSection {
     
     display: flex;
@@ -66,12 +56,5 @@
     }
     .listSection{
         display: none;
-    }
-    .headerLink{
-        color: white;
-    }
-    .active{
-        color:#3d3b3b;
-    }
-    
+    }    
 }

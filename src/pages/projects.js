@@ -1,14 +1,14 @@
-import classes from './Projects.module.css';
-import ProductCard from './ProductCard/ProductCard';
-import calImg from '../images/calculator.PNG';
-import ifocuz from '../images/ifocuz.png';
-
+import {projects, cardContainer} from './Projects.module.css';
+import ProductCard from '../components/ProductCard/ProductCard';
+import calImg from './images/calculator.png';
+import ifocuz from './images/ifocuz.png';
+import Layout from '../components/Layout'
 
 const Projects = props => {
 
 
-    return <div className={classes.projects}>
-        <div className={classes.cardContainer}>
+    return <Layout><div className={projects}>
+        <div className={cardContainer}>
             <ProductCard
                 img={calImg}
                 title="Calculator"
@@ -27,6 +27,7 @@ const Projects = props => {
                 status="WIP" />
         </div>
     </div>
+    </Layout>
 }
 
 export default Projects;

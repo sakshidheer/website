@@ -1,7 +1,7 @@
-import classes from './Note.module.css';
+import {note} from './Note.module.css';
 
 const Note = props => {
-    return <div className={classes.note}>
+    return <div className={note}>
         {props.children}
         </div>
 }
