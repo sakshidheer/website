@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-js",
     "path": "/blog/",
-    "result": {"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Blog Post 1"},"id":"37c84f9f-e3c5-507e-abd1-230113eb54eb","slug":"UpdateReactToGatsby","excerpt":"My MDX A greater than… *** hjhjhj js console.log() a b"},{"frontmatter":{"title":"Blog Post 2"},"id":"5ecfc4d8-bdf6-53b5-8fe0-30ce2540427b","slug":"AddBlogWithGatsby","excerpt":"Gatsby is the best"}]}},"pageContext":{}},
     "staticQueryHashes": []}

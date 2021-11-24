@@ -1,0 +1,24 @@
+.linkStyle{
+   height: 150px;
+   text-decoration: none;
+   composes: text from '../../Global.css';
+}
+
+.card {
+    height: 150px;
+    min-height: 150px !important;
+    max-height: 150px;
+    position: relative;
+    width: 40%;
+    max-width: 40%;
+    min-width: 40% !important;
+    
+}
+.blogWrapper {
+
+}
+
+.read{
+    position: absolute;
+    bottom: 5px;
+}
