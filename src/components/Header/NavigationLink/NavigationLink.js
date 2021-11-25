@@ -7,6 +7,7 @@ const NavigationLink = ({ iconName, name, toPath, exact }) => {
             exact={exact}
             activeClassName={active}
             className={headerLink}
+            partiallyActive={true}
             to={toPath}><span className={materialUI}>{iconName}</span>{name}
             </Link>
     </span>)

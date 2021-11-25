@@ -35,5 +35,6 @@ module.exports = {
         path: `${__dirname}/src/pages/blogs/`,
       },
     },
+    `gatsby-plugin-fontawesome-css`
     ]
   }

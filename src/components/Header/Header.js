@@ -6,7 +6,7 @@ const Header = props => {
     return <div className={header}>
         <div className={logoSection}>Sakshi Dheer</div>
         <nav className={navSection}>
-            <NavigationLink toPath="/" exact iconName="home" name="Home"/>
+            <NavigationLink toPath="/" exact="true" iconName="home" name="Home"/>
             <NavigationLink toPath="/projects" iconName="assignment" name="Projects"/>
             <NavigationLink toPath="/blog" iconName="face" name="Blog"/>
         </nav>
