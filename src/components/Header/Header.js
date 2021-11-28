@@ -8,7 +8,7 @@ const Header = props => {
         <nav className={navSection}>
             <NavigationLink toPath="/" exact="true" iconName="home" name="Home"/>
             <NavigationLink toPath="/projects" iconName="assignment" name="Projects"/>
-            <NavigationLink toPath="/blog" iconName="face" name="Blog"/>
+            <NavigationLink toPath="/blog" iconName="face" name="Blog" partiallyActive={true} />
         </nav>
     </div>
 };

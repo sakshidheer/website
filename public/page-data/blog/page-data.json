@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-js",
     "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Blog Post 1"},"id":"37c84f9f-e3c5-507e-abd1-230113eb54eb","slug":"UpdateReactToGatsby","excerpt":"My MDX A greater than… *** hjhjhj js console.log() a b"},{"frontmatter":{"title":"Blog Post 2"},"id":"5ecfc4d8-bdf6-53b5-8fe0-30ce2540427b","slug":"AddBlogWithGatsby","excerpt":"Gatsby is the best"},{"frontmatter":{"title":""},"id":"7f72c007-586e-5546-be4a-d7cdc09f184e","slug":"Use-font-awesome-in-gatsby","excerpt":""}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Use font awesome in Gatsby"},"id":"7f72c007-586e-5546-be4a-d7cdc09f184e","slug":"Use-font-awesome-in-gatsby","excerpt":"Use font awesome in Gatsby Hi There! This is my first blog. I created this website using React and…"}]}},"pageContext":{}},
     "staticQueryHashes": []}

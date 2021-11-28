@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---cache-dev-404-page-js",
     "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/AddBlogWithGatsby/"},{"path":"/UpdateReactToGatsby/"},{"path":"/404/"},{"path":"/404.html"},{"path":"/blog/"},{"path":"/"},{"path":"/projects/"},{"path":"/blogs/AddBlogWithGatsby/"},{"path":"/blogs/UpdateReactToGatsby/"},{"path":"/Use-font-awesome-in-gatsby/"},{"path":"/blogs/Use-font-awesome-in-gatsby/"}]}},"pageContext":{}},
+    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/Use-font-awesome-in-gatsby/"},{"path":"/404/"},{"path":"/404.html"},{"path":"/blog/"},{"path":"/"},{"path":"/projects/"},{"path":"/blogs/Use-font-awesome-in-gatsby/"},{"path":"/blogs/Use-font-awesome-in-gatsby-code/"},{"path":"/Use-font-awesome-in-gatsby-code/"}]}},"pageContext":{}},
     "staticQueryHashes": []}

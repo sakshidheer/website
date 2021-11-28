@@ -1,16 +1,15 @@
-import Layout from '../components/Layout'
-import {
-  faGrinBeamSweat
-} from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { main, oops } from './404.module.css'
+import Button from '../components/Button/Button'
 
 const NotFound = ({ data }) => {
-    
-    return <Layout>
+
+  return (
+    <div className={main}>
+      <div className={oops}>OOPS!!</div>
       Page you are looking for is not found!!!!
-      <FontAwesomeIcon icon={faGrinBeamSweat} size="6x" color="yellow"/>
-        
-    </Layout>
+      <Button onClick={()=>{window.open(window.location.origin,"_self")}}>Go To Home</Button>
+
+    </div>)
 }
 
 export default NotFound;
