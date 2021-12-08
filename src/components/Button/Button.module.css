@@ -6,7 +6,7 @@
     border: none;
     margin-top: 10px;
     cursor: pointer;
-    color: #fcfcfb;
+    color: #161615;
     composes : button from '../../Global.css'
 }
 

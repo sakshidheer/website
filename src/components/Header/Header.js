@@ -7,7 +7,7 @@ const Header = props => {
         <div className={logoSection}>Sakshi Dheer</div>
         <nav className={navSection}>
             <NavigationLink toPath="/" exact="true" iconName="home" name="Home"/>
-            <NavigationLink toPath="/projects" iconName="assignment" name="Projects"/>
+            <NavigationLink toPath="/projects" iconName="assignment" name="Projects" partiallyActive={true}/>
             <NavigationLink toPath="/blog" iconName="face" name="Blog" partiallyActive={true} />
         </nav>
     </div>

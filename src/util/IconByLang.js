@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react';
 import pythonIcon from '@iconify/icons-logos/python';
 import javaIcon from '@iconify/icons-logos/java';
 import javascriptIcon from '@iconify/icons-logos/javascript';
-
+import Gatsby_Monogram from '../pages/images/Gatsby_Monogram.png'
 
 const IconByLang = (lang) => {
     switch (lang.toLowerCase()) {
@@ -25,6 +25,8 @@ const IconByLang = (lang) => {
         case 'js':
         case 'javascript':
             return <Icon icon={javascriptIcon} />
+        case 'gatsby':
+            return <img src={Gatsby_Monogram} width="19px" height="18px"/>
         default:
             return <Icon icon={reduxIcon} />;
     }

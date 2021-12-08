@@ -30,7 +30,7 @@
     text-align: center;
     z-index: 1;
     composes: projectHeader from '../Global.css';
-    color: #fcfcfb;
+    color: #2a2a29;
 }
 
 .skillSection {
@@ -69,4 +69,13 @@
         min-width: 0;
         width: auto;
     }
+    .skillsHeader{
+        left: 30%;
+    }
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
 }

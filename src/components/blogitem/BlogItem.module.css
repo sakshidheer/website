@@ -12,6 +12,7 @@
     width: 40%;
     max-width: 40%;
     min-width: 40% !important;
+    background-color: rgb(243, 243, 166);
     
 }
 .blogWrapper {
@@ -21,4 +22,17 @@
 .read{
     position: absolute;
     bottom: 5px;
+}
+@media  screen and (max-width: 900px) {
+    .card {
+        height: 150px;
+        min-height: 150px !important;
+        max-height: 150px;
+        position: relative;
+        width: 90%;
+        max-width: 90%;
+        min-width: 90% !important;
+        
+        
+    }
 }

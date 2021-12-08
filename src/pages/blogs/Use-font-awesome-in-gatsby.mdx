@@ -1,18 +1,23 @@
 ---
 title: Use font awesome in Gatsby
 date: 27-11-2021
+author: Sakshi Dheer
 ---
-import { CopyBlock,dracula } from "react-code-blocks";
-import jsx from './Use-font-awesome-in-gatsby-code'
 
-# Use font awesome in Gatsby
+Font-awesome - one of the top icon libraries out there and the website just seem incomplete without it. So, I used them in my website as well. So, lets see how to use font-awesome in Gatsby project.
 
-Hi There! This is my first blog. I created this website using React and Gatsby. I will be sharing few things I learned 
-<CopyBlock
-      text={jsx}
-      language="jsx"
-      showLineNumbers={true}
-      startingLineNumber={1}
-      wrapLines
-      theme={dracula}
-    />
+```javascript
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
+```
+
+

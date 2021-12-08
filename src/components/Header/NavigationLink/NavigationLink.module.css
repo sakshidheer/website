@@ -1,11 +1,11 @@
-.active {
-    composes: linkHover from '../../../Global.css';
-}
-
 .headerLink {
-    composes : primaryColorScheme from '../../../Global.css';
+    color: #005d91;
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
+}
+
+.active {
+    color: #b10034 ;
 }
 
 .materialUI {
@@ -14,10 +14,10 @@
 }
 @media screen and (max-width:600px) {
     .headerLink{
-        color: white;
+        color: #ffffff;
     }
     .active{
-        color:#3d3b3b;
+        color:#d5cece;
     }
     
 }

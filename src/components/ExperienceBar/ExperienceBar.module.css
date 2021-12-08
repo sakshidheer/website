@@ -21,3 +21,12 @@
 .verticalLine::before{
     background: green !important;
 }
+
+@media  screen and (max-width: 900px) {
+    .dateClassName {
+        color: #bfcfff;       
+    }
+    .container{
+        padding-bottom: 40px;
+    }
+}

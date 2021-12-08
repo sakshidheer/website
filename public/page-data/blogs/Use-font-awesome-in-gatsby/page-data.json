@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blogs-use-font-awesome-in-gatsby-mdx",
     "path": "/blogs/Use-font-awesome-in-gatsby/",
-    "result": {"pageContext":{"frontmatter":{"title":"Use font awesome in Gatsby","date":"27-11-2021"}}},
+    "result": {"pageContext":{"frontmatter":{"title":"Use font awesome in Gatsby","date":"27-11-2021","author":"Sakshi Dheer"}}},
     "staticQueryHashes": []}

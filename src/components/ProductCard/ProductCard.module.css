@@ -14,7 +14,7 @@
     width: 100px;
     text-align: center;
     composes: projectHeader from '../../Global.css';
-    color: #fcfcfb;
+    color: #2a2a29;
 }
 .lang {
     margin: 5px;
@@ -45,6 +45,7 @@
 .discription {
     height: 20%;
     padding: 10px;
+    color: #005f82;
 }
 
 .header {

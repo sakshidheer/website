@@ -1,7 +1,7 @@
 import { main, oops } from './404.module.css'
 import Button from '../components/Button/Button'
 
-const NotFound = ({ data }) => {
+const NotFound = ({ }) => {
 
   return (
     <div className={main}>

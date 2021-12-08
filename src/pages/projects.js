@@ -2,6 +2,7 @@ import {projects, cardContainer} from './Projects.module.css';
 import ProductCard from '../components/ProductCard/ProductCard';
 import calImg from './images/calculator.png';
 import ifocuz from './images/ifocuz.png';
+import website from './images/website.png';
 import Layout from '../components/Layout'
 
 const Projects = props => {
@@ -24,6 +25,14 @@ const Projects = props => {
                 githubUrl="https://github.com/sakshidheer/ifocuz"
                 liveDemo="/ifocuz"
                 langs={['React','Redux','css','React-router']}
+                status="WIP" />
+            <ProductCard
+                img={website}
+                title="Website"
+                description="This is the website you are on .Work in Progress "
+                githubUrl="https://github.com/sakshidheer/website"
+                liveDemo="/"
+                langs={['React','Redux','css','Gatsby']}
                 status="WIP" />
         </div>
     </div>
