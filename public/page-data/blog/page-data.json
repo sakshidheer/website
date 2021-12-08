@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-blog-js",
-    "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":""},"id":"beb7805c-c860-5054-a338-8c837446e3ed","slug":"Add-Code-Block-In-Gatsby","excerpt":"syntax highlighting - define describe prismjs How to choose a theme Go to  https://prismjs.com/ \nYou…"},{"frontmatter":{"title":"Use font awesome in Gatsby"},"id":"7f72c007-586e-5546-be4a-d7cdc09f184e","slug":"Use-font-awesome-in-gatsby","excerpt":"Font-awesome - one of the top icon libraries out there and the website just seem incomplete without…"}]}},"pageContext":{}},
-    "staticQueryHashes": []}
