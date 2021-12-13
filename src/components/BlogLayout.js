@@ -15,10 +15,6 @@ function BlogLayout({ pageContext, children }) {
           <div className={tag}>
             {tags.join(' ')}
           </div>
-          <div className={info}>
-            <span><b>By </b> {pageContext.frontmatter.author}</span>
-            <span><b>Posted on </b> {pageContext.frontmatter.date}</span>
-          </div>
 
         </div>
 

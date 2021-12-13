@@ -2,8 +2,7 @@
  color: #005f82;
  font-size: larger;
  line-height: 150%;
- font-family: system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",helvetica,arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
- 
+ font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
 .blogSection{
@@ -32,8 +31,8 @@
 
 
 .blog h1 {
-    margin-block-end: 0em;
     line-height: 130%;
+    font-family: Georgia,Times,Times New Roman,serif;
 }
 
 @media  screen and (max-width: 900px) {
