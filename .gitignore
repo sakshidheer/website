@@ -24,5 +24,3 @@ yarn-error.log*
 
 .cache
 public/*
-public/app-4527769a6a02c99e0bcb.js
-public/AddBlogWithGatsby/index.html
