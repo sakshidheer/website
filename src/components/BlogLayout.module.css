@@ -5,6 +5,11 @@
  font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
+.shareSection{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
 .blogSection{
     margin-left: 30vh;
     margin-right: 30vh;
@@ -53,5 +58,12 @@
     .tag{
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+    .blogSection{
+        margin-left: 10vh; 
+        margin-right: 10vh;
     }
 }
