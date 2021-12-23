@@ -5,15 +5,17 @@
 }
 
 .card {
-    height: 150px;
-    min-height: 150px !important;
-    max-height: 150px;
+    height: 160px;
     position: relative;
-    width: 40%;
-    max-width: 40%;
-    min-width: 40% !important;
-    background-color: rgb(243, 243, 166);
+    max-width: 90%;
+    width: 90%;
+    border-bottom: 1px solid;
+    cursor: pointer;
     
+}
+
+.card:hover{
+    background-color: #f6f6f6;
 }
 .blogWrapper {
 
@@ -21,17 +23,28 @@
 
 .read{
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
 }
+
+.read::after {
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 700;
+    content: '\f061';
+    text-decoration: none;
+    display: none;
+    padding-left: 5px;
+  }
+
+  .card:hover .read::after{
+    color: rgb(230, 23, 23);
+    display: inline;
+  }
 @media  screen and (max-width: 900px) {
     .card {
-        height: 150px;
-        min-height: 150px !important;
-        max-height: 150px;
+        height: 200px;
         position: relative;
         width: 90%;
         max-width: 90%;
-        min-width: 90% !important;
         
         
     }

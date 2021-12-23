@@ -5,8 +5,11 @@
  font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
+.blog a:hover{
+    cursor: pointer;
+}
 .shareSection{
-    width: 80px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
 }

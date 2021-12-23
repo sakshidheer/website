@@ -1,5 +1,22 @@
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+@media  screen and (max-width: 1200px) {
+    .container{
+        margin-left: 10vh; 
+        margin-right: 10vh;
+    }
+}
+
+
+@media  screen and (max-width: 900px) {
+    .container{
+        margin-left: 0vh;
+        margin-right: 0vh;
+    }
 }

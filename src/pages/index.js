@@ -19,9 +19,9 @@ const Home = () => {
 
                         Contact me at following: 
                         <div className={iconContainer}>
-                            <IconLink link="https://www.linkedin.com/in/sakshi-dheer/" icon="fab fa-linkedin" iconColor="#0077b5"/>
-                            <IconLink link="https://github.com/sakshidheer" icon="fab fa-github" iconColor="#171515"/>
-                            <IconLink link="https://twitter.com/sakshidheer" icon="fab fa-twitter" iconColor="#00acee"/>
+                            <IconLink link="https://www.linkedin.com/in/sakshi-dheer/" title="Linkedin" icon="fab fa-linkedin" iconColor="#0077b5"/>
+                            <IconLink link="https://github.com/sakshidheer" title="Github" icon="fab fa-github" iconColor="#171515"/>
+                            <IconLink link="https://twitter.com/sakshidheer" title="twitter" icon="fab fa-twitter" iconColor="#00acee"/>
                         </div>
                     </Note>
 

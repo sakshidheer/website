@@ -1,8 +1,8 @@
-const IconLink = ({ link, icon, iconColor }) => {
+const IconLink = ({ link, icon, iconColor ,onClick, title}) => {
     const style = {
         color: iconColor 
 }
-return (<a href={link} target="_blank" style={ style} title={link}>
+return (<a href={link} target="_blank" style={ style} title={title} onClick={onClick}>
     <i className={icon} ></i>
 </a>)
 }
