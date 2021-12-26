@@ -28,6 +28,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-sharp`,
     {
       resolve: "gatsby-plugin-mdx",
         options: {
@@ -35,6 +36,16 @@ module.exports = {
             default: require.resolve("./src/components/BlogLayout.js"),
           },
           gatsbyRemarkPlugins: [
+            {
+              resolve: `gatsby-remark-images`,
+              options: {
+                // It's important to specify the maxWidth (in pixels) of
+                // the content container as this plugin uses this as the
+                // base for generating different widths of each image.
+                maxWidth: 590,
+                wrapperStyle:'margin-left:0px;border:1px solid blue;',
+              },
+            },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {

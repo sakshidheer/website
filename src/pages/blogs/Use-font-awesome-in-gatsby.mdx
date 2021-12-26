@@ -29,20 +29,43 @@ import * as React from "react"
 const IndexPage = () => {
     return (
         <>
-        </>
-    )
+            <div>Home</div>
+            <div>Author</div>
+        </>)
 }
 
-export default IndexPage
+export default IndexPage;
 
 ```
-Now lets add font-awesome to our project. 
+
+This is how screen will look now.
+
+![ksjdsk](./images/Use-font-awesome-in-gatsby-image-1.png)
+
+Now lets stop the application and add font-awesome to our project. 
+
 ```bash
 npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontawesome
 ```
 
+Now you need to do two things to add font awesome in your project. 
+
+* Import FontAwesomeIcon using following command:
+
+```js
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+```
+
+*  Find the icon name that we need to pass to FontAwesomeIcon attribute by using the following technique
+
+1. Find the icon you need from [font awesome website](https://fontawesome.com/v5.15/icons?d=gallery&p=2 "search icon") 
+2. Select the icon and get the class name and remove the style prefix(fas, far, fal, fad, fab).
+3. In the remaning class name,capatalize the fist letter of the word after - and then append it after the first word
+
+The above three steps with give you the name of 
+As an example of first one, lets 
 
 
 
