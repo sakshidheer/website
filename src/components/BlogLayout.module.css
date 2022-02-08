@@ -6,6 +6,15 @@
  font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
+.blog h1, h2, h3{
+    font-family: 'Comforter', cursive !important;
+    text-decoration: underline;
+}
+
+.blog h2, h3{
+    font-size: x-large;
+}
+
 .blog a:hover{
     cursor: pointer;
 }
@@ -67,7 +76,7 @@
 
 @media  screen and (max-width: 1200px) {
     .blogSection{
-        margin-left: 10vh; 
-        margin-right: 10vh;
+        margin-left: 2vh; 
+        margin-right: 2vh;
     }
 }
