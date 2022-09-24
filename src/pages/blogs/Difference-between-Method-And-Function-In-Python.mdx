@@ -1,7 +1,7 @@
 ---
 
 title: Difference between Method and Function in python
-date: 30-01-2022
+date: 24-09-2022
 author: Sakshi Dheer
 tags: Python
 
@@ -9,7 +9,29 @@ tags: Python
 
 ### Function
 
-Function is a block of code that performs some task
+Function is a block of code that performs some specific task. For example, below is the function that takes a number as argument and return whether the number is prime or not.
+```python
+def is_num_prime(num):
+    if num < 1:
+        return False
+    is_prime = True
+    for index in range(2, num):
+        if num % index == 0:
+            is_prime = False
+            break
+    return is_prime
+```
+
+All you need to execute the above function is to simply call it as below
+
+```python
+is_num_prime(5)
+```
 ### Method
 
-Method is a block of code that is associated with an object
+Method is a block of code that is associated with an object. It is basically the set of instructions that are performed on the object
+
+Below is a class named Student and its method called get_age.
+```python
+```
+
