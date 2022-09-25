@@ -1,8 +1,6 @@
 import { Helmet } from 'react-helmet';
 import { blog, infosection, tag, info, blogSection, shareSection } from './BlogLayout.module.css'
 import BlogShareSection from './BlogShareSection';
-import NavigationLink from './Header/NavigationLink/NavigationLink';
-import IconLink from './IconLink';
 import Layout from './Layout';
 require("prismjs/themes/prism-tomorrow.css");
 

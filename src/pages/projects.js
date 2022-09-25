@@ -34,6 +34,14 @@ const Projects = props => {
                 liveDemo="/"
                 langs={['React','Redux','css','Gatsby']}
                 status="WIP" />
+            <ProductCard
+                img={website}
+                title="Python practice"
+                description="Project I started to practice python and understand it at deeper level"
+                githubUrl="https://github.com/sakshidheer/practicepython"
+                liveDemo="https://github.com/sakshidheer/practicepython/blob/main/README.md"
+                langs={['Python']}
+                status="WIP" />
         </div>
     </div>
     </Layout>

@@ -15,6 +15,22 @@
     font-size: x-large;
 }
 
+.blog table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.blog th {
+    color: white;
+    background-color: #005f82;
+}
+.blog  td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+width: 50%;
+}
+
 .blog a:hover{
     cursor: pointer;
 }
@@ -78,5 +94,6 @@
     .blogSection{
         margin-left: 2vh; 
         margin-right: 2vh;
+        padding-bottom: 50px;
     }
 }

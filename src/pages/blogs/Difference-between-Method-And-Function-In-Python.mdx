@@ -1,7 +1,7 @@
 ---
 
 title: Difference between Method and Function in python
-date: 24-09-2022
+date: 25-09-2022
 author: Sakshi Dheer
 tags: Python
 
@@ -21,8 +21,9 @@ def is_num_prime(num):
             break
     return is_prime
 ```
+#### How a function is called
 
-All you need to execute the above function is to simply call it as below
+All you need to execute the above function is to simply call it by its name as below
 
 ```python
 is_num_prime(5)
@@ -33,5 +34,49 @@ Method is a block of code that is associated with an object. It is basically the
 
 Below is a class named Student and its method called get_age.
 ```python
+from datetime import date
+from datetime import timedelta
+
+class Student():
+    def __init__(self,id, name, day, month, year):
+        self.id = id
+        self.name = name
+        self.day = day
+        self.month = month
+        self.year = year
+    
+    def get_age(self):
+        birthday = date(self.year, self.month, self.day)
+        today = date.today()
+        diff = today - birthday
+        return diff.days//365
 ```
+
+Few things to notice when defining a method:
+<>
+  <ol>
+    <li>The first argument of a method is always self - reference to the object it is attached to</li>
+    <li>The method has access to the attributes of the objects its attached to/called on</li>
+  </ol>
+</>
+
+#### How a method is called
+
+A method is always called on an object, they are always depended on the object.
+
+```python
+student = Student(1, "Amit",2, 5, 1996)
+student.get_age()
+```
+
+### Difference between Function and Method
+
+| Function    | Method      |
+| :---        |    :----:   |
+| Independent of any object     | Dependent on object       | 
+| Called directly by its name                       | Called on some object by its name|
+| Can have zero or more arguments        | Has atleast one argument and first argument should be 'self'.Method has access to object's attribute through 'self' on which it is called  | 
+| Always defined inside a class | Can be defined anywhere|
+
+This is a one of the first question a beginner asks when they first start learning python. I hope I helped you to explain the difference.
 
