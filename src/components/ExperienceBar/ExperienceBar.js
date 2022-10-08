@@ -23,6 +23,18 @@ const ExperienceBar = (props) => {
           
         </p>
       </VerticalTimelineElement>
+      
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="Aug 2022"
+        iconStyle={{ background: '#005d91', color: '#fff' }}
+        icon={<WorkIcon />}
+        contentStyle={{ background: '#005d91',color:'white' }}
+        contentArrowStyle={{ borderRight: '7px solid  #005d91' }}
+        dateClassName={dateClassName}
+      >
+        <h3 className="vertical-timeline-element-title">Started self learning Angular</h3>
+      </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="Aug 2020"

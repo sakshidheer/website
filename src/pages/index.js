@@ -32,7 +32,7 @@ const Home = () => {
                                 <Skill name="Java" percentage="70%" />
                             </Note>
                             <Note>
-                                <Skill name="Python" percentage="10%" />
+                                <Skill name="Python" percentage="20%" />
                             </Note>
                             <Note>
                                 <Skill name="Js" percentage="70%" />
@@ -42,6 +42,9 @@ const Home = () => {
                             </Note>
                             <Note>
                                 <Skill name="React" percentage="20%" />
+                            </Note>
+                            <Note>
+                                <Skill name="Angular" percentage="10%" />
                             </Note>
                         </div>
 

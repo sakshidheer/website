@@ -3,7 +3,8 @@ import ProductCard from '../components/ProductCard/ProductCard';
 import calImg from './images/calculator.png';
 import ifocuz from './images/ifocuz.png';
 import website from './images/website.png';
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
+import weatherApp from './images/weatherApp.png';
 
 const Projects = props => {
 
@@ -42,6 +43,14 @@ const Projects = props => {
                 liveDemo="https://github.com/sakshidheer/practicepython/blob/main/README.md"
                 langs={['Python']}
                 status="WIP" />
+            <ProductCard
+                img={weatherApp}
+                title="weather-app"
+                description="A simple weather app with static data for now. My first Angular application"
+                githubUrl="https://github.com/sakshidheer/weather-app"
+                liveDemo="/weather-app" 
+                langs={['Angular','css']}
+                status='WIP'/>
         </div>
     </div>
     </Layout>

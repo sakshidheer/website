@@ -41,7 +41,7 @@
   }
 @media  screen and (max-width: 900px) {
     .card {
-        height: 200px;
+        height: 250px;
         position: relative;
         width: 90%;
         max-width: 90%;

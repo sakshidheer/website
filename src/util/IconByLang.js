@@ -7,7 +7,7 @@ import pythonIcon from '@iconify/icons-logos/python';
 import javaIcon from '@iconify/icons-logos/java';
 import javascriptIcon from '@iconify/icons-logos/javascript';
 import Gatsby_Monogram from '../pages/images/Gatsby_Monogram.png'
-
+import fileTypeAngular from '@iconify/icons-vscode-icons/file-type-angular';
 const IconByLang = (lang) => {
     switch (lang.toLowerCase()) {
         case 'react':
@@ -27,6 +27,8 @@ const IconByLang = (lang) => {
             return <Icon icon={javascriptIcon} />
         case 'gatsby':
             return <img src={Gatsby_Monogram} width="19px" height="18px"/>
+        case 'angular':
+            return <Icon icon={fileTypeAngular}/>
         default:
             return <Icon icon={reduxIcon} />;
     }
