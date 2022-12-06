@@ -6,6 +6,18 @@
  font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
+.blog figcaption {
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.blog img {
+    border: 1px solid grey;
+}
+
 .blog h1, h2, h3{
     font-family: 'Comforter', cursive !important;
     text-decoration: underline;

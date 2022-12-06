@@ -36,6 +36,7 @@ module.exports = {
             default: require.resolve("./src/components/BlogLayout.js"),
           },
           gatsbyRemarkPlugins: [
+            'gatsby-remark-unwrap-images',
             {
               resolve: `gatsby-remark-images`,
               options: {
@@ -43,7 +44,7 @@ module.exports = {
                 // the content container as this plugin uses this as the
                 // base for generating different widths of each image.
                 maxWidth: 590,
-                wrapperStyle:'margin-left:0px;border:1px solid blue;',
+                showCaptions:true,
               },
             },
           {
