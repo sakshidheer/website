@@ -7,9 +7,9 @@ tags: Angular
 
 ---
 
-So, why would one want to make custom button or any other custom component? Because they are independent, reusable and makes your life a lot more easier.
+So, why would one want to make a custom button or any other custom component? Because they are independent, reusable, and make your life a lot easier.
 
-#### Create a new project and get it ready(skip if you already know this)
+## Create a new project and get it ready(skip if you already know this)
 
 Lets' start by creating a new project with Angular CI:
 
@@ -18,17 +18,34 @@ ng new custom-button-example
 ```
 That's all you need to create a new project(you probably knew this already !!!!)
 
-![This is starting page](./images/Use-font-awesome-in-gatsby-image-1.png)
+Next go to app.component.html and replace the content with the following code: 
 
-#### Create a button componenet
+```JS
+<style>
+  :host {
+    color: #333;
+  }
 
-Lets start by creating the component by executing a simple command in Angular CLI
+</style>
+<div>
+  <h1>My custom button example</h1>
+</div>
+```
+
+Start the server with ng serve and you should be able to see the following page
+![This is starting page](./images/Add_Custom_button_in_Angular/base_page.png)
+
+## Create a button component
+
+Next step would be to create the custom component by executing a simple command in Angular CLI
 
 ```bash
 ng generate component button
 ```
+This will generate following files in your app folder
 
-#### Add the component in app
+![Button structure](./images/Add_Custom_button_in_Angular/button_structure.png)
+## Add the component in app
 
 #### Add styling
 
