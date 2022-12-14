@@ -45,11 +45,56 @@ ng generate component button
 This will generate following files in your app folder
 
 ![Button structure](./images/Add_Custom_button_in_Angular/button_structure.png)
-## Add the component in app
+
+Now, Let's add code to create a simple html button in button.component.html
+```HTML
+<button>{{label}}</button>
+```
+The "label" is the text that will appear on the button and we want it to be passed from the parent. So, lets prepare the child(button in our case to receive it) with @Input decorator.
+
+```JS
+import {
+    Component,
+    Input
+} from '@angular/core';
+
+...
+export class ButtonComponent implements OnInit {
+
+    @Input() label: string = ""; // This will receive label value from parent
+    ngOnInit(): void {}
+
+}
+```
+
+Now, Let's use this button in our app. Go to app.component.html and add the button with following code
+
+```HTML
+<app-button label="Custom Button"></app-button>
+```
+
+Now our main page will look as below:
+
+![Custom Button added](./images/Add_Custom_button_in_Angular/simple_button.png)
+
+## Add click functionality
+
+Since we now have basic button let's add click functionality to our custom button.
+
+Do the following in our ButtonComponent 
+
+1. Import Output and EventEmitter
+```JS
+import  Output, EventEmitter  from '@angular/core';
+```
+
+2. Add a property called newItemEmitter and decorate it with @Output decorator
+```JS
+@Output() newItemEmitter = new EventEmitter();
+```
+The @Output decorator will allow us to pass data to parent component(app in our case).
+
+## Add disability functionality
 
 #### Add styling
 
-
-#### Add disability functionality
-
-#### Add click functionality

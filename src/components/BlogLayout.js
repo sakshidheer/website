@@ -1,13 +1,21 @@
 import { Helmet } from 'react-helmet';
-import { blog, infosection, tag, info, blogSection, shareSection } from './BlogLayout.module.css'
+import { blog, infosection, tag, info, blogSection, shareSection, back } from './BlogLayout.module.css'
 import BlogShareSection from './BlogShareSection';
+import IconLink from './IconLink';
 import Layout from './Layout';
+import { navigate } from "gatsby"
 require("prismjs/themes/prism-tomorrow.css");
 
 function BlogLayout({ pageContext, children, location }) {
   let tags = pageContext.frontmatter.tags.split(',').map(item => {
     return '#' + item.trim();
-  })
+  });
+  //let history = useHistory();
+  
+  let onBackClick = ()=>{
+    debugger;
+    navigate("/blog/"); //do not use location.origin before path!!! Does not work
+  }
   return (
     <>
       <Helmet>
@@ -16,7 +24,9 @@ function BlogLayout({ pageContext, children, location }) {
       </Helmet>
       <Layout cls={blog}>
         <div className={blogSection}>
-
+        <IconLink onClick={onBackClick}
+            icon="fas fa-arrow-left"
+            title="Go Back to blog" />
           <h1>{pageContext.frontmatter.title}</h1>
           <div className={infosection}>
             <div className={tag}>
